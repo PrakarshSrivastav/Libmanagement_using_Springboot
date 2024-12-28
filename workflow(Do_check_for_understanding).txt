@@ -1,0 +1,39 @@
+My thought Process
+
+numbers in the beginning of each file is how processsed it orderly
+
+Library consists of user and the library itself
+
+User table
+__________
+id
+name
+
+
+
+
+Book table
+___________
+book_id
+book_title
+book_author/writer
+borrowed(boolean false(default))
+borrowedBy(default null if !borrowed)
+
+
+
+creation list:
+
+JPA connection of book and user
+
+
+
+controller and service for each, and we're trying to solve following problems:
+    Create a new User
+    Fetch all the Users
+    Add new book
+    Fetch all the books
+    Fetch specific book
+    Delete a book
+    Borrow a book
+    Return a book
