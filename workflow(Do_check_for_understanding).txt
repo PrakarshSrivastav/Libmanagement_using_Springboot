@@ -31,6 +31,7 @@ JPA connection of book and user
 controller and service for each, and we're trying to solve following problems:
     Create a new User
     Fetch all the Users
+    Fetch specific user
     Add new book
     Fetch all the books
     Fetch specific book
